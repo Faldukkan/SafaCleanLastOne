@@ -6,10 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Fatima.unity
-    guid: 99c9720ab356a0642a771bea13969a05
+    path: Assets/Scenes/First Room.unity
+    guid: 027e393dcb06dd04d93a01c0b94f6da6
+  - enabled: 1
+    path: Assets/Scenes/AsaadMainScene.unity
+    guid: 2a079d402946bb042acbfb96c3131089
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 5bc3a51427492864b9dab37a61cb9515,
       type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6039791e792607742ae894edb84f3681,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: 7ac11d45ddb705448a64408b4592d765,
       type: 2}
