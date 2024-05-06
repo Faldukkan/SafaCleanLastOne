@@ -11,9 +11,11 @@ public class UIMove : MonoBehaviour
      int choose=0;
 
 public void is_clicked(){
+     audioSource.Play(); 
 is_clickedd=true;
 }
 public void is_notclicked(){
+     audioSource.Pause(); 
 is_clickedd=false;
 
 }
@@ -41,7 +43,7 @@ if(is_clickedd){
 }
 public void Onturnright(){
     is_clicked();
-    audioSource.Play(); 
+   
     choose=1;
       
 
